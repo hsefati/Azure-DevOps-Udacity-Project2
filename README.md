@@ -16,7 +16,6 @@ This is the general setup of the python app using sklearn and Flask.
 ![ScreenShot](Deliverables/architecture.png)
 
 
-
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
