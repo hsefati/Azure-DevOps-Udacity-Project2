@@ -10,7 +10,7 @@ This is a small Machine Learning App for Boston house price preiction based on a
 
 ## Instructions
 
-![ScreenShot](Deliverables/architecture.png | width=200)
+![ScreenShot]((Deliverables/architecture.png) | width=200)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
