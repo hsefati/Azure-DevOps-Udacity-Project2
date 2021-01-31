@@ -1,4 +1,4 @@
-µ# Overview
+## Overview
 
 This is a small Machine Learning App for Boston house price preiction based on a few parameters e.g. crime rate, distance to city centers etc. The app is implemented in python using scikit-learn and flask module. For running the application in the cloud azure web app Services is used. In this project you will find the code, the raw data for ML as well as the ML-model. Moreover we provide Makefile alonmg with Github actions and a YAML file to allow for CI/CD for further development and change in the code or input data.
 
@@ -7,7 +7,7 @@ This is a small Machine Learning App for Boston house price preiction based on a
 
 * The kanban Board https://trello.com/b/dzUvDvFY/udacity-dev-ops-proj2
 
-![Screenshot](Deliverables/Screenshot%20Trello%20_%20Trello.png)
+![Screenshot](Deliverables/Screenshot%20Trello%20_%20Trello.png = 200x)
 * The Project plan: https://github.com/magnusse/Azure-DevOps-Udacity-Project2/blob/main/Deliverables/ProjectPlan.xlsx
 
 
