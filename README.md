@@ -39,20 +39,16 @@ In detail follow these steps get the App running on Azure App Services:
   This will implement a template for an App which will be filled by the Azure Devops CD pipeline. Note: if you choose another name than _flaskmlservice_ you have to adapt this in the YAML file for Azure DevOps pipelines as well as in the .sh file for testing the application.
 
   1. Go to Azure DevOps https://azure.microsoft.com/de-de/services/devops/start and create a new project, choose connection with Github (not Github enterprise) and connect with the repository https://github.com/magnusse/Azure-DevOps-Udacity-Project2.git .
-
     <img src="Deliverables/AzureDevops-pipelines-new-pipeline.png" width=600>
-&nbsp;
 
     you will then see the YAML file:
   <img src="Deliverables/importedYAMLfromgithub2021-02-01 09_11_37-New pipeline - Pipelines.png" width=600>
 
   1. Now run the pipeline manually and you will see after a while, that the software is successfully deployed to Azure App Services. In case of any errors click on the corresponding red step and read carefully error output.
-
     <img src="Deliverables/Azure-pipeline-successfulrun2021-01-31 21_33_28-.png" width=600>
-&nbsp;
+
 
   1. Have a look at the Output of streamed log files from deployed application
-
     <img src="Deliverables/Logs2021-02-01 14_47_12-https___flaskmlservice.scm.azurewebsites.net_api_deployments_add089e33d1240cbb4a.png" width=600>
 
   1. Now if the app is up and running on Azure we can test the application by using the shell script "make_predict_azure_app.sh" which is also part of the repository. Go to the Azure cloud shell and look whether it has already executable mode:
