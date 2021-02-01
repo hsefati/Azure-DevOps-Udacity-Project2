@@ -69,7 +69,8 @@ In detail follow these steps get the App running on Azure App Services:
     ```
 
   7. Your screen should then look similar to this:
-    <img src="Deliverables/testrunappAzure2021-02-01 11_46_51-flaskmlservice - Microsoft Azure.png" width=600>
+
+  <img src="Deliverables/testrunappAzure2021-02-01 11_46_51-flaskmlservice - Microsoft Azure.png" width=600>
 
 
 * Running a test on Azure Cloud shell with local localhost. In the case we just start the app locally on either Azure cloud shell or on your local computer.
