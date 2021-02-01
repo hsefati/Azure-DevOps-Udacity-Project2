@@ -40,7 +40,7 @@ In detail follow these steps get the App running on Azure App Services:
 
   1. Go to Azure DevOps https://azure.microsoft.com/de-de/services/devops/start and create a new project, choose connection with Github (not Github enterprise) and connect with the repository https://github.com/magnusse/Azure-DevOps-Udacity-Project2.git .
 
-    <img src="Deliverables/AzureDevops2021-02-01 09_10_22-New pipeline - Pipelines.png" width=600>
+    <img src="Deliverables/AzureDevops-pipelines-new-pipeline.png" width=600>
 &nbsp;
 
     you will then see the YAML file:
