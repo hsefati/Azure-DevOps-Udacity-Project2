@@ -66,6 +66,8 @@ In detail follow these steps get the App running on Azure App Services:
     Port: 443
     {"prediction":[20.35373177134412]}
     ```
+
+    Your screen should then look similar to this:
     <img src="Deliverables/testrunappAzure2021-02-01 11_46_51-flaskmlservice - Microsoft Azure.png" width=600>
 
 
