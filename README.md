@@ -58,6 +58,7 @@ In detail follow these steps get the App running on Azure App Services:
     -rwxr--r-- 1 magnussen magnussen 445 Jan 26 17:49 make_predict_azure_app.sh
     magnussen@Azure:~/Azure-DevOps-Udacity-Project2$
     ```
+
     if not change this via ```  chmod 744  make_predict_azure_app.sh```
     You can now run ```  ./make_predict_azure_app.sh``` and read the output. The output should look similar to this:
 
@@ -67,7 +68,7 @@ In detail follow these steps get the App running on Azure App Services:
     {"prediction":[20.35373177134412]}
     ```
 
-    7. Your screen should then look similar to this:
+  7. Your screen should then look similar to this:
     <img src="Deliverables/testrunappAzure2021-02-01 11_46_51-flaskmlservice - Microsoft Azure.png" width=600>
 
 
