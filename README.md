@@ -22,7 +22,7 @@ The python code along with the ML model, a Makefile and the Azure Pipeline confi
 
 In detail follow these steps get the App running on Azure App Services:
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+**Instructions for running the Python project**:  I will now explain how you could run the App.
 
 * Project running on Azure App Service, please also read the official documentation of Microsoft https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops
 
@@ -93,6 +93,7 @@ In detail follow these steps get the App running on Azure App Services:
 ## Enhancements
 
 The following enhancements would improve the Project
+  * improve logging e.g. log all results of calls
   * adding more input variables for the ML model
   * provide a user interface to test the app online via web UI
   * Include more testcases testing the reliability of the model
