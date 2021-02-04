@@ -102,4 +102,6 @@ The following enhancements would improve the Project
 
 ## Demo
 
-<TODO: Add link Screencast on YouTube>
+Please find here a youtube video where the usage of the project is shown and how you can deploy it.
+
+https://youtu.be/JTt6T0ukq2o
