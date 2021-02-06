@@ -24,4 +24,4 @@ class QuickstartUser(HttpUser):
             time.sleep(1)
 
     def on_start(self):
-        
+        print("This is locust without login")
