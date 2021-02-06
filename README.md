@@ -72,6 +72,11 @@ In detail follow these steps get the App running on Azure App Services:
 
   <img src="Deliverables/testrunappAzure2021-02-01 11_46_51-flaskmlservice - Microsoft Azure.png" width=600>
 
+  8. Use _locust_ (see https://docs.locust.io/en/stable/quickstart.html) to load-test the application: For a Load-test you can use the locust.py file. Just start it on your local computer using ```locust``` (before install locust using ```make install``` or ```pip install locust``` on your local python environment). After starting locust on your local machine, you can access and start the load test by calling ```http://localhost:8089/``` on a browser. After input of load test parameters and the URL of the application you will see the results:
+
+  <img src="Deliverables/Locust-output2021-02-06 18_30_06-Locust.png" width=600>
+
+
 
 * Running a test on Azure Cloud shell with local localhost. In the case we just start the app locally on either Azure cloud shell or on your local computer.
   1. First clone or pull the repository as above in the case of Azure app service.
@@ -87,6 +92,11 @@ In detail follow these steps get the App running on Azure App Services:
   4. Now start a second shel (because the other is blocked by the app), change directory to the repository and run the shellscript ```make_prediction.sh   ```. As above in step 5 use ```chmod 744 make_orediction.sh ``` to allow execution of shell script. After starting the shellscript you should see:
 
     <img src="Deliverables/predict-local-My Dashboard - Microsoft Azure.png" width=600>
+
+
+***Continous Integration***: For Continous integration there is also a Github workflow integrated. The Github workflow using GithubActions is started after every commit in the repository. See sample results here:
+
+  <img src="Deliverables/ChangeforGithubActivity-magnusse_Azure-DevOps-Udacity-Project2.png" width=600>
 
 
 
